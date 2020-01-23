@@ -1,1 +1,1 @@
-# Le_Linh_Project2_Typography
+# Project 2 Website Typography 

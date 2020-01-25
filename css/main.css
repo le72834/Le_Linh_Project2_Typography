@@ -1,0 +1,233 @@
+/*basic reset*/
+
+div, p, body, header, footer, section, article, nav, h1, h2, h3, h4 {
+  margin: 0;
+  padding: 0;
+}
+img {
+  border: none;
+  margin: 0;
+  padding: 0;
+}
+
+/*html selectors*/
+body {
+  font-family: Mukta, Helvetica,sans-serif  ;
+  font-size: 14px;
+}
+a:link, a:visited {
+  text-decoration: none;
+}
+a:hover, a:active {
+  text-decoration: none;
+}
+.hidden {
+  display: none;
+}
+/*-- Start Container --*/
+#container {
+  width: 980px;
+  margin: 0 auto;
+}
+/*-- End Container --*/
+
+/*-- Start Header --*/
+.mainHeader {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  background-color: black;
+}
+.logoHeader {
+  width: 220px;
+  margin-top: 20px;
+  margin-left: 50px;
+  margin-bottom: 20px;
+}
+.mainNav {
+  width: 600px;
+  height: 25px;
+  margin-top: 70px;
+  margin-left: auto;
+  text-transform: uppercase;
+}
+.mainNav ul {
+  list-style-type: none;
+  padding: 0;
+}
+.mainNav ul li {
+  font-size: 20px;
+  display: inline;
+  cursor: pointer;
+  margin-left: 25px;
+}
+.mainNav ul li a {
+  color: #e8d7b5;
+  padding: 5px;
+}
+.mainNav ul li a:hover {
+  padding: 5px;
+  background-color: #d1a556;
+}
+.selected {
+  padding: 5px 0px 5px 0px;
+  color: #d1a556;
+}
+.aboutus {
+  margin-top: 30px;
+  line-height: 28px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+h2 {
+  font-size: 25px;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-align: center;
+  font-family: Mukta;
+  letter-spacing: 1px;
+}
+.shortText {
+  font-size: 16px;
+  font-style: italic;
+  padding-top: 10px;
+  font-family: Grill San;
+  text-transform: none;
+  letter-spacing: 2px;
+  color: #d1a556;
+
+}
+a {
+  color: #789;
+}
+a:hover {
+  color: #e8d7b5;
+}
+p {
+  padding-top: 5px;
+  font-size: 12pt;
+  margin-left: 20px;
+  line-height: 145%;
+  font-family: Crimson;
+  letter-spacing: 0.01em;
+  margin-right: 20px;
+}
+.aboutus p {
+  margin-left: 60px;
+  margin-right: 60px;
+  line-height: 30px;
+}
+.reason {
+  display: flex;
+  flex-direction: row;
+  background-color: #1f1c1e;
+  color: white;
+  padding-right: 20px;
+
+}
+
+.aboutMuskoka {
+  padding-top: 50px;
+  text-align: center;
+
+}
+.aboutMuskoka h2 {
+  color: #e8d7b5;
+  padding-bottom: 5px;
+  padding-left: 30px;
+}
+.aboutMuskoka p {
+  text-align: justify;
+  text-align-last: center;
+  padding-left: 20px;
+}
+.italic {
+  font-style: italic;
+  color: #e8d7b5;
+}
+#features {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  text-align: center;
+  margin-right: 30px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+
+}
+#features h3 {
+  color: #d1a556;
+}
+h3 {
+  font-size: 22px;
+  text-transform: uppercase;
+  font-weight: bold;
+  padding-bottom: 10px;
+}
+#features p {
+  font-size: 14px;
+  letter-spacing: 1px;
+
+}
+.values {
+  width: 300px;
+}
+.resolve {
+  width: 300px;
+}
+.caring {
+  width: 300px;
+}
+.authentic {
+  width: 300px;
+  padding-top: 30px;
+}
+.unique {
+  width: 300px;
+  padding-top: 30px;
+}
+.thirsty {
+  width: 300px;
+  padding-top: 30px;
+}
+.ourBeers {
+  padding: 20px 0px 0px 0px;
+  color: #d1a556;
+  background-color: #1f1c1e;
+  height: 30px;
+  margin-top: 20px;
+}
+.beers {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  text-align: center;
+  color: #e8d7b5;
+  background-color: #1f1c1e;
+  padding-bottom: 20px;
+  padding-top: 10px;
+
+}
+.beers p {
+  font-size: 14px;
+  letter-spacing: 0.5px;
+}
+
+#contact {
+  margin-top: 30px;
+  text-align: center;
+}
+#contact h2 {
+  padding-bottom: 10px;
+}
+#contact p {
+  padding-left: 50px;
+  padding-right: 50px;
+  line-height: 25px;
+  letter-spacing: 1px;
+  font-family: Crimson;
+  font-size: 15px;
+  
+
+}

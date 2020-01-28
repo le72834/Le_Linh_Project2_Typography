@@ -12,7 +12,7 @@ img {
 
 /*html selectors*/
 body {
-  font-family: Mukta, Helvetica,sans-serif  ;
+  font-family: Mukta, Crimson, Helvetica,sans-serif  ;
   font-size: 14px;
 }
 a:link, a:visited {
@@ -228,6 +228,6 @@ h3 {
   letter-spacing: 1px;
   font-family: Crimson;
   font-size: 15px;
-  
+
 
 }
